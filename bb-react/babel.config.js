@@ -4,7 +4,7 @@ module.exports = {
         [
             '@babel/env',
             {
-                // modules: false,
+                modules: false,
                 useBuiltIns: 'usage',
                 targets: {
                     "chrome": "58"
