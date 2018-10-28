@@ -5,17 +5,17 @@ module.exports = {
         es6: true ,
         node: true
 
-    } ,
-    parser: 'babel-eslint' ,
+    } , ///////////
+    parser: 'babel-eslint' , //////////////
     parserOptions: {
         ecmaFeatures: {
             experimentalObjectRestSpread: true ,
             jsx: true
-        } ,
-        sourceType: 'module'
+        } , /////??????
+        sourceType: 'module' /////////////
     } ,
-    plugins: [ 'react' ] ,
-    root: true ,
+    plugins: [ 'react' ] ,////////////
+    root: true , ////////
     rules: {
         //缩进4空格
         indent: [ 'error' , 4 ] ,
