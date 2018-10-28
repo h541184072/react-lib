@@ -1,0 +1,2 @@
+1. yarn °²×°
+2. yarn global add create-react-app
