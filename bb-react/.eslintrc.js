@@ -13,7 +13,7 @@ module.exports = {
     node: true,
     es6: true,
   },
-  plugins: ['react'],
+  plugins: ['react-app'],
   settings: {
     react: {
       pragma: 'React'
